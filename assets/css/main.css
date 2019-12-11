@@ -219,7 +219,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 2em;
 	}
 
 	h4 {
@@ -2021,6 +2021,9 @@ input, select, textarea {
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
 				transform: scale(1);
+				display: flex;
+				justify-content: center;
+				align-items: center;
 				position: absolute;
 				left: 3em;
 				top: 3em;
@@ -2520,8 +2523,8 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3.5em;
+			height: 3.5em;
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
@@ -2789,13 +2792,18 @@ input, select, textarea {
 /* Contact */
 
 	ul.contact {
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
 		list-style: none;
 		padding: 0;
 	}
 
 		ul.contact > li {
-			padding: 0;
-			margin: 1.5em 0 0 0;
+			display: block;
+			padding: 0 3rem;
+			/* margin: 1.5em 0 0 0; */
+			width: 19rem;
 		}
 
 			ul.contact > li:first-child {
